@@ -12,9 +12,9 @@ public class DeveloperDTO {
     private String publicKey;
     private String status;
     private int    rsaLength;
-    private Date   gmtCreated;
+    private String gmtCreated;
     private String creator;
-    private Date   gmtModified;
+    private String gmtModified;
     private String modifier;
 
     public Long getId() {
@@ -65,11 +65,11 @@ public class DeveloperDTO {
         this.rsaLength = rsaLength;
     }
 
-    public Date getGmtCreated() {
+    public String getGmtCreated() {
         return gmtCreated;
     }
 
-    public void setGmtCreated(Date gmtCreated) {
+    public void setGmtCreated(String gmtCreated) {
         this.gmtCreated = gmtCreated;
     }
 
@@ -81,11 +81,11 @@ public class DeveloperDTO {
         this.creator = creator;
     }
 
-    public Date getGmtModified() {
+    public String getGmtModified() {
         return gmtModified;
     }
 
-    public void setGmtModified(Date gmtModified) {
+    public void setGmtModified(String gmtModified) {
         this.gmtModified = gmtModified;
     }
 

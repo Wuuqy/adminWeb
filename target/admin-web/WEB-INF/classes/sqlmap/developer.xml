@@ -15,8 +15,8 @@
         <result column="status" jdbcType="TINYINT" property="status" />
         <result column="creator" jdbcType="VARCHAR" property="creator" />
         <result column="modifier" jdbcType="VARCHAR" property="modifier" />
-        <result column="gmt_created" jdbcType="TIMESTAMP" property="gmtCreated" />
-        <result column="gmt_modified" jdbcType="TIMESTAMP" property="gmtModified" />
+        <result column="gmt_created" jdbcType="VARCHAR" property="gmtCreated" />
+        <result column="gmt_modified" jdbcType="VARCHAR" property="gmtModified" />
     </resultMap>
 
     <resultMap id="DeveloperApiDTO" class="DeveloperApiDTO">
@@ -26,8 +26,8 @@
         <result column="status" jdbcType="VARCHAR" property="status" />
         <result column="creator" jdbcType="VARCHAR" property="creator" />
         <result column="modifier" jdbcType="VARCHAR" property="modifier" />
-        <result column="gmt_created" jdbcType="TIMESTAMP" property="gmtCreated" />
-        <result column="gmt_modified" jdbcType="TIMESTAMP" property="gmtModified" />
+        <result column="gmt_created" jdbcType="VARCHAR" property="gmtCreated" />
+        <result column="gmt_modified" jdbcType="VARCHAR" property="gmtModified" />
     </resultMap>
 
     <insert id="insert" parameterClass="DeveloperDTO">

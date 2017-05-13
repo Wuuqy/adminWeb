@@ -94,7 +94,8 @@ $(function(){
                 { "data": "publicKey", "title": "开发者公钥" },
                 { "data": "gmtCreated", "title": "创建时间" ,
                     "fnCreatedCell": function (nTd, sData, oData, iRow, iCol) {
-                        $(nTd).html("123");
+                        // $(nTd).html("123");
+                        $(nTd).html(sData);
                     }
                 }
             ]

@@ -28,8 +28,8 @@ public class DeveloperService {
     }
 
     public void insert(DeveloperDTO developerDTO) {
-        developerDTO.setGmtCreated(new Date());
-        developerDTO.setGmtModified(new Date());
+        developerDTO.setGmtCreated(new Date().toLocaleString());
+        developerDTO.setGmtModified(new Date().toLocaleString());
         developerDTO.setRsaLength(1024);
         developerDTO.setStatus("NORMAL");
         developerDAO.insert(developerDTO);

@@ -1,5 +1,5 @@
 #set($layout =  "layout.vm" )
-#set($sub=  "sidebar.vm"  )
+#set($sub =  "sidebar.vm"  )
 <link href="/static/plugins/datatable/css/dataTables.bootstrap.min.css" rel="stylesheet">
 <link href="/static/css/select2.min.css" rel="stylesheet">
 <!-- page content -->
