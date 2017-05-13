@@ -13,9 +13,9 @@ public class MenuDTO {
     private Long parentId;
     private int level;
     private int orderNo;
-    private Date gmtCreated;
+    private String gmtCreated;
     private String creator;
-    private Date   gmtModified;
+    private String   gmtModified;
     private String modifier;
     private List<MenuDTO> children;
 
@@ -27,11 +27,11 @@ public class MenuDTO {
         this.children = children;
     }
 
-    public Date getGmtCreated() {
+    public String getGmtCreated() {
         return gmtCreated;
     }
 
-    public void setGmtCreated(Date gmtCreated) {
+    public void setGmtCreated(String gmtCreated) {
         this.gmtCreated = gmtCreated;
     }
 
@@ -43,11 +43,11 @@ public class MenuDTO {
         this.creator = creator;
     }
 
-    public Date getGmtModified() {
+    public String getGmtModified() {
         return gmtModified;
     }
 
-    public void setGmtModified(Date gmtModified) {
+    public void setGmtModified(String gmtModified) {
         this.gmtModified = gmtModified;
     }
 
